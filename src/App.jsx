@@ -3,14 +3,14 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
+import HomePage from "./pages/home";
+
 import { Link } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <h1 className="text-red-300 text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <HomePage />
       <Link to="downandaway">Down and away!</Link>
     </>
   );
