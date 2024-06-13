@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import { Link } from "react-router-dom";
+
 export default function Header() {
   const [isCollectionHovered, setIsCollectionHovered] = useState(false);
 
@@ -7,7 +9,9 @@ export default function Header() {
     if (isCollectionHovered) {
       return (
         <ul className="absolute top-full bg-white w-full left-0">
-          <li className="hover:bg-gray-200">Down and Away</li>
+          <Link to="/downandaway">
+            <li className="hover:bg-gray-200">Down and Away</li>
+          </Link>
           <li className="hover:bg-gray-200">The Crying Wolf</li>
         </ul>
       );
