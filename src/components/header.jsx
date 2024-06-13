@@ -12,7 +12,9 @@ export default function Header() {
           <Link to="/downandaway">
             <li className="hover:bg-gray-200">Down and Away</li>
           </Link>
-          <li className="hover:bg-gray-200">The Crying Wolf</li>
+          <Link to="/thecryingwolf">
+            <li className="hover:bg-gray-200">The Crying Wolf</li>
+          </Link>
         </ul>
       );
     }
