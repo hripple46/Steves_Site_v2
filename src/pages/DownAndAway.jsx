@@ -10,7 +10,9 @@ function DownAndAway() {
     <>
       <Header />
 
-      <div>Thanks for checking out the page for Down and Away!</div>
+      <div className="mt-24">
+        Thanks for checking out the page for Down and Away!
+      </div>
       <BodyParagraph text="Summary text goes here." />
       <Link to="/">Back to the main page</Link>
     </>

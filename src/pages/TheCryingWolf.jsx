@@ -9,7 +9,9 @@ export default function TheCryingWolf() {
     <>
       <Header />
 
-      <div>Thanks for checking out the page for The Crying Wolf!</div>
+      <div className="mt-24">
+        Thanks for checking out the page for The Crying Wolf!
+      </div>
       <Link to="/">Back to the main page</Link>
     </>
   );

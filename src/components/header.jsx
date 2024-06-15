@@ -21,11 +21,15 @@ export default function Header() {
   };
 
   return (
+    //header has height of 24 (tailwindcss); add margins to top of other components to push down same height
     <>
-      <ul className="w-full h-24 bg-blue-300 flex justify-center lg:justify-start items-center top-0 fixed">
-        <div className=" h-full hover:bg-blue-400 flex items-center pl-2">
-          <li className=" text-white text-3xl pr-2 ">Stephen Ripple</li>
-        </div>
+      <ul className="z-10 w-full h-24 bg-blue-300 flex justify-center lg:justify-start items-center top-0 fixed">
+        <Link to="/" className="h-full">
+          <div className=" h-full hover:bg-blue-400 flex items-center pl-2">
+            <li className=" text-white text-3xl pr-2 ">Stephen Ripple</li>
+          </div>
+        </Link>
+
         <div
           onMouseEnter={() => setIsCollectionHovered(true)}
           onMouseLeave={() => setIsCollectionHovered(false)}
@@ -38,7 +42,6 @@ export default function Header() {
           <li className=" text-white text-2xl pr-2">Other</li>
         </div>
       </ul>
-      <div className="h-24"></div>
     </>
   );
 }
