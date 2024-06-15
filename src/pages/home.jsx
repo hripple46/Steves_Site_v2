@@ -8,8 +8,8 @@ function HomePage() {
     <div>
       <Header />
       <div>
-        <div className="absolute top-[24] ">
-          <div className="w-screen h-screen flex justify-evenly items-center">
+        <div className="absolute bg-boat bg-cover">
+          <div className="backdrop-blur-sm w-screen h-screen flex justify-evenly items-center">
             <img
               className="h-auto w-1/3 rounded-md"
               src={ProfilePic}
