@@ -9,8 +9,8 @@ function HomePage() {
       <Header />
       <div>
         <div className="absolute bg-boat bg-cover">
-          <div className="backdrop-blur-sm w-screen h-screen flex flex-col justify-evenly items-center lg4:mt-0 mt-24">
-            <h1 className="text-6xl">STEPHEN RIPPLE</h1>
+          <div className="backdrop-blur-sm w-screen h-screen flex flex-col justify-start items-center lg4:mt-0 mt-24">
+            <h1 className="text-6xl pt-24">STEPHEN TIMOTHY RIPPLE</h1>
             <div className="flex justify-evenly">
               <img
                 className="w-1/3 rounded-md self-start shadow-2xl"
