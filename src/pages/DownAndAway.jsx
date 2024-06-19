@@ -1,8 +1,8 @@
 import "../App.css";
 import "../index.css";
 import { Link } from "react-router-dom";
-import BodyParagraph from "../components/bodyParagraph";
 
+import DescriptionWithPic from "../components/DescriptionWithPic";
 import Header from "../components/header";
 
 function DownAndAway() {
@@ -13,7 +13,7 @@ function DownAndAway() {
       <div className="mt-24">
         Thanks for checking out the page for Down and Away!
       </div>
-      <BodyParagraph text="Summary text goes here." />
+      <DescriptionWithPic text="Summary text goes here." />
       <Link to="/">Back to the main page</Link>
     </>
   );

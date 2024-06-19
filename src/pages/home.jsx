@@ -1,19 +1,26 @@
 import Header from "../components/header";
 
+import { useEffect } from "react";
+
 import ProfilePic from "../assets/profile_pic.jpg";
 import BoatBackground from "../assets/boat_background.jpeg";
 
 function HomePage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <Header />
-      <div>
-        <div className="absolute bg-boat bg-cover">
-          <div className="backdrop-blur-sm w-screen h-screen flex flex-col justify-start items-center lg4:mt-0 mt-24">
-            <h1 className="text-6xl pt-24">STEPHEN TIMOTHY RIPPLE</h1>
-            <div className="flex justify-evenly">
+      <div className="overflow-hidden">
+        <div className="absolute bg-boat bg-cover w-full">
+          <div className="backdrop-blur-sm w-screen h-screen flex flex-col justify-start items-center overflow-hidden  mt-24">
+            <h1 className="lg:text-6xl text-4xl pt-24 pb-12 overflow-hidden">
+              STEPHEN TIMOTHY RIPPLE
+            </h1>
+            <div className="flex justify-evenly overflow-hidden">
               <img
-                className="w-1/3 rounded-md self-start shadow-2xl"
+                className="w-1/3 overflow-hidden rounded-md self-start shadow-2xl"
                 src={ProfilePic}
                 alt="Stephen's Profile Picture"
               />
