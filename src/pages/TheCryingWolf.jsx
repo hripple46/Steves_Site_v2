@@ -22,7 +22,6 @@ I am a first-time author, and a life-time fisherman. I graduated with a degree i
           picture={BoatBackground}
         />
       </div>
-      <Link to="/">Back to the main page</Link>
     </>
   );
 }
