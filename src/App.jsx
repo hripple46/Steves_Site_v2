@@ -7,9 +7,9 @@ import HomePage from "./pages/home";
 
 function App() {
   return (
-    <>
+    <div className="font-serif">
       <HomePage />
-    </>
+    </div>
   );
 }
 

@@ -25,7 +25,7 @@ export default function Header() {
   return (
     //header has height of 24 (tailwindcss); add margins to top of other components to push down same height
     <>
-      <ul className="z-10 w-full h-24 bg-blue-300 flex justify-center lg:justify-start items-center top-0 fixed">
+      <ul className="z-10 w-full h-24 bg-blue-300/75 flex backdrop-blur-md justify-center lg:justify-start items-center top-0 fixed">
         <Link to="/" className="h-full">
           <div className=" h-full hover:bg-blue-400 flex items-center pl-2">
             <li className="pl-8 text-white text-3xl pr-8 text-center ">
