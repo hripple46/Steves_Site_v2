@@ -8,7 +8,7 @@ export default function Header() {
   const renderCollection = () => {
     if (isCollectionHovered) {
       return (
-        <ul className="absolute top-full bg-white w-full left-0">
+        <ul className="absolute top-full bg-white w-full left-0 box-border">
           <Link to="/downandaway">
             <li className="text-center p-2 hover:bg-gray-200">Down and Away</li>
           </Link>

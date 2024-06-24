@@ -12,9 +12,9 @@ function HomePage() {
   return (
     <div>
       <Header />
-      <div className="overflow-hidden">
-        <div className="absolute bg-boat bg-cover w-full">
-          <div className="backdrop-blur-sm w-screen h-screen flex flex-col justify-start items-center overflow-hidden  mt-24">
+      <div className="overflow-hidden box-border">
+        <div className="absolute bg-boat bg-cover w-full border-box">
+          <div className="backdrop-blur-sm w-full h-screen flex flex-col justify-start items-center overflow-hidden  mt-24">
             <h1 className="lg:text-6xl text-4xl pt-24 pb-12 overflow-hidden">
               STEPHEN TIMOTHY RIPPLE
             </h1>
