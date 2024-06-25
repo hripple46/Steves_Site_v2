@@ -8,7 +8,7 @@ export default function Header() {
   const renderCollection = () => {
     if (isCollectionHovered) {
       return (
-        <ul className="absolute top-full bg-white w-full left-0 box-border">
+        <ul className="absolute top-full bg-slate-400 shadow-2xl w-48  box-border">
           <Link to="/downandaway">
             <li className="text-center p-2 hover:bg-gray-200">Down and Away</li>
           </Link>
@@ -35,7 +35,7 @@ export default function Header() {
         <div
           onMouseEnter={() => setIsCollectionHovered(true)}
           onMouseLeave={() => setIsCollectionHovered(false)}
-          className="relative h-full hover:bg-blue-400 hover:cursor-pointer  flex items-center pl-2 pr-2"
+          className="relative h-full hover:bg-blue-400 hover:cursor-pointer  flex items-center justify-center pl-2 pr-2"
         >
           <li className="text-black text-2xl ">Collection</li>
           {renderCollection()}
